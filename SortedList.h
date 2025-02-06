@@ -59,7 +59,7 @@ public:
 private:
   struct NodeT {
       T info;
-      NodeT* next;
+      NodeT* next = nullptr;
   };
 
   int length;
